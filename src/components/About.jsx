@@ -25,7 +25,7 @@ export default function About() {
       <h2 className="text-2xl font-semibold text-slate-50">About me</h2>
 
       <div className="grid gap-10 md:grid-cols-[minmax(0,2.2fr)_minmax(0,1fr)] items-start">
-
+ 
         <div className="space-y-4 text-base leading-relaxed text-slate-300">
           <p>
             Final‑year Computer Science Engineering student from Tamil Nadu with
@@ -87,8 +87,8 @@ export default function About() {
           </div>
         </div>
 
-    
-        <aside className="hidden md:block">
+      
+        <aside className="mt-4 md:mt-0">
           <div className="rounded-2xl border border-slate-700 bg-[#0b1e34] px-5 py-4 shadow-xl shadow-black/40 text-sm text-slate-200">
             <div className="mb-3 border-b border-slate-700 pb-2">
               <p className="text-xs uppercase tracking-[0.2em] text-slate-400">
