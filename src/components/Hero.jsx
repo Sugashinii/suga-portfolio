@@ -43,8 +43,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
-
-        <aside className="hidden md:flex justify-end">
+        <aside className="flex justify-center md:justify-end mt-8 md:mt-0">
           <div className="overflow-hidden rounded-3xl bg-[#0b1e34] shadow-2xl shadow-black/40 p-2">
             <img
               src={profileImg}
@@ -53,6 +52,7 @@ export default function Hero() {
             />
           </div>
         </aside>
+
       </div>
     </motion.section>
   );
